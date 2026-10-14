@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///D:/dezhaweb/dezhaweb-client/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///D:/dezhaweb/dezhaweb-client/app/opengraph-image.png.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1200, height: 630 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,8IAAG;IAAEC,OAAO;IAAMC,QAAQ;AAAI"}}]
+}
