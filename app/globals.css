@@ -1,0 +1,47 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+@import "tailwindcss";
+
+@theme {
+  /* پالت شرکتی (سرمه‌ای تیره) */
+  --color-corp-bg: #0f172a; /* Slate 900 */
+  --color-corp-surface: #1e293b; /* Slate 800 */
+  --color-corp-border: #334155; /* Slate 700 */
+  
+  /* رنگ برند اصلی (آبی اعتماد) */
+  --color-brand-400: #60a5fa; /* Blue 400 */
+  --color-brand-500: #3b82f6; /* Blue 500 */
+  --color-brand-600: #2563eb; /* Blue 600 */
+  
+  --font-vazir: "Vazirmatn", sans-serif;
+}
+
+body {
+  font-family: var(--font-vazir);
+  background-color: var(--color-corp-bg);
+  color: #f8fafc; /* Slate 50 */
+  direction: rtl;
+}
+
+/* =========================================
+   کدهای اجباری برای نرم شدن اسکرول (Lenis)
+   ========================================= */
+html.lenis, html.lenis body {
+  height: auto;
+  width: 100vw;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
